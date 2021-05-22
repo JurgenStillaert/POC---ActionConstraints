@@ -10,13 +10,13 @@ namespace POC___ActionConstraints.Controllers
 		[HttpPatch, HttpHeader("LV-Command", "Indienen")]
 		public IActionResult Indienen()
 		{
-			return Ok();
+			return Ok("Indienen");
 		}
 
 		[HttpPatch, HttpHeader("LV-Command", "InBehandelingZetten")]
 		public IActionResult InBehandelingZetten()
 		{
-			return Ok();
+			return Ok("In behandeling zetten");
 		}
 	}
 }
